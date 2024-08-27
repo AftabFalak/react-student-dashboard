@@ -57,7 +57,7 @@ const Dashboard = () => {
       <HorizontalMenu />
       <HamburgerMenu />
 
-      <ToggleButton variant="contained" onClick={() => setView(view === 'grid' ? 'tile' : 'grid')}>
+      <ToggleButton variant="contained" style={{marginBottom:"5px"}} onClick={() => setView(view === 'grid' ? 'tile' : 'grid')}>
       Show {view === 'grid' ? 'tile' : 'grid'} view
       </ToggleButton>
 
